@@ -5,6 +5,7 @@ public class Unit2Lab2 {
         Scanner input = new Scanner(System.in);
         System.out.print("\nInput a monetary amount: $");
         double money = input.nextDouble();
+        input.close();
 
         //calculation
         int dollars = (int) (money / 1);

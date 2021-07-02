@@ -22,7 +22,8 @@ public class Unit1Lab2
     v4 = input.nextInt();     // Input fourth value
     v5 = input.nextInt();     // Input fifth value
     v6 = input.nextInt();     // Input sixth value
-    
+    input.close();
+
     // Output using System.out.println()
     System.out.println( "\n\n" );
     System.out.println( "\t" + "Value" + "\t" + "Value" + "\t" + "Total");
