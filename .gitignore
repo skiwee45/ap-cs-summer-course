@@ -24,3 +24,4 @@ hs_err_pid*
 
 # specific to AP CS Summer Course
 *.uxf
+Test.java
