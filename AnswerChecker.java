@@ -4,6 +4,7 @@ import java.nio.file.*;
 
 /**
  * Find differences between two char arrays
+ * java AnswerChecker D:\\Downloads\\SATMyAnswers.txt sorted D:\\Downloads\\SATAnswerKey.txt unsorted 4
  */
 public class AnswerChecker {
     public static void main(final String[] args) throws IOException {
