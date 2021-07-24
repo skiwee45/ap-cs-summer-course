@@ -14,8 +14,8 @@ public class AnswerChecker {
         }
 
         //file reading
-        String userAnswersString = readFileAsString(args[0]);
-        String answerKeyString = readFileAsString(args[2]);
+        String userAnswersString = readFileAsString(args[0]).toUpperCase();
+        String answerKeyString = readFileAsString(args[2]).toUpperCase();
         char[] choices = createCharArray('A', Integer.parseInt(args[4]));
         choices = Arrays.copyOf(choices, choices.length + 1);
         choices[choices.length - 1] = '_'; //this is the skip char
@@ -34,18 +34,23 @@ public class AnswerChecker {
         }
 
         //display
-        System.out.println("\nThe corrected answers are: ");
+        System.out.println(
+            "\nCorrected Answers: " + 
+            "\n-------------------------------------");
+        System.out.print(" # Yours Correct");
         for (var i : correctedAnswers.entrySet()) {
-            System.out.println(
-                i.getKey() +
-                "  Your Answer: " + userAnswers[i.getKey() - 1] +
-                "\tCorrect Answer: " + i.getValue());
+            System.out.printf("%n%2d     %c       %c", i.getKey(), userAnswers[i.getKey() - 1], i.getValue());
         }
-        System.out.println("\nThe missing answer key questions are: ");
+
+        if (answerKeyMissing.isEmpty()) {
+            return;
+        }
+        System.out.println(
+            "\n\nMissing Answer Key Questions" + 
+            "\n-------------------------------------");
+        System.out.print("#  Yours");
         for (var i : answerKeyMissing.entrySet()) {
-            System.out.println(
-                i.getKey() +
-                "  Your Answer: " + userAnswers[i.getKey() - 1]);
+            System.out.printf("%n%2d     %c", i.getKey(), userAnswers[i.getKey() - 1]);
         }
     }
 

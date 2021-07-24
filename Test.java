@@ -1,8 +1,8 @@
+import java.io.IOException;
+
 public class Test {
-    public static void main(String[] args) {
-        String s1 = "AP Computer Science";
-        String s2 = "really rocks my world";
-        String s3 = s1 + s2.substring(6);
-        System.out.println(s3);
+    public static void main(String[] args) throws IOException {
+        String answerKeyString = AnswerChecker.readFileAsString("D:\\Downloads\\SATAnswerKey.txt").toUpperCase();
+        System.out.println(answerKeyString);
     }
 }

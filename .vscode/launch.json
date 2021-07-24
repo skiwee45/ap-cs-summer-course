@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Unit8Lab2Test",
+            "request": "launch",
+            "mainClass": "Unit8Lab2Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit8Lab1Test",
+            "request": "launch",
+            "mainClass": "Unit8Lab1Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit8Activity1Test",
+            "request": "launch",
+            "mainClass": "Unit8Activity1Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
             "name": "Launch Unit7Lab3",
             "request": "launch",
             "mainClass": "Unit7Lab3",
