@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Unit11Lab1",
+            "request": "launch",
+            "mainClass": "Unit11Lab1",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit10Lab4Test",
+            "request": "launch",
+            "mainClass": "Unit10Lab4Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit10Lab3Test",
+            "request": "launch",
+            "mainClass": "Unit10Lab3Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit10Lab2Test",
+            "request": "launch",
+            "mainClass": "Unit10Lab2Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit10Lab1Test",
+            "request": "launch",
+            "mainClass": "Unit10Lab1Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit9Lab2Test",
+            "request": "launch",
+            "mainClass": "Unit9Lab2Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit9Lab1Test",
+            "request": "launch",
+            "mainClass": "Unit9Lab1Test",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
             "name": "Launch Unit8Lab2Test",
             "request": "launch",
             "mainClass": "Unit8Lab2Test",
