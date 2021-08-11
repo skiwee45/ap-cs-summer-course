@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Unit15Lab2",
+            "request": "launch",
+            "mainClass": "Unit15Lab2",
+            "projectName": "ap-cs-summer-course"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit15Lab1",
+            "request": "launch",
+            "mainClass": "Unit15Lab1",
+            "projectName": "ap-cs-summer-course"
+        },
+        {
+            "type": "java",
             "name": "Launch Unit12Lab2ExceptionCatch",
             "request": "launch",
             "mainClass": "Unit12Lab2ExceptionCatch",
