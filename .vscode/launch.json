@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Unit12Lab2ExceptionCatch",
+            "request": "launch",
+            "mainClass": "Unit12Lab2ExceptionCatch",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit12Lab2ExceptionThrown",
+            "request": "launch",
+            "mainClass": "Unit12Lab2ExceptionThrown",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit12Lab1",
+            "request": "launch",
+            "mainClass": "Unit12Lab1",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit11Lab3",
+            "request": "launch",
+            "mainClass": "Unit11Lab3",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unit11Lab2",
+            "request": "launch",
+            "mainClass": "Unit11Lab2",
+            "projectName": "ap-cs-summer-course_f56536de"
+        },
+        {
+            "type": "java",
             "name": "Launch Unit11Lab1",
             "request": "launch",
             "mainClass": "Unit11Lab1",

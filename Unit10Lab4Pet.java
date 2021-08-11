@@ -31,4 +31,9 @@ public class Unit10Lab4Pet {
 
     public void makeNoises() {
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s %d years old %.1flbs", getClass().getName(), getName(), getAge(), getWeight());
+    }
 }
